@@ -15,17 +15,21 @@
 		<h3 class="text-center">Brand Management</h3>
 		<hr>
 		<div class="add-brand form-group">
-				<a class="btn  add-btn float-right"
-					id="addBrandInfoModal"><i class="fas fa-plus-square"></i> Add Brand</a>
+				<button type="submit" class="btn  add-btn float-right"
+					id="addBrandInfoModal"><i class="fas fa-plus-square"></i> Add Brand</button>
 			</div>
 		<div class="search-brand form-group">
 				<div class="search-brand__name">
 					<input type="text" class="form-control search-brand" placeholder="Search by brand name..." id="keyword">
 				</div>
 				<button type="submit" id="btnSearch" class="btn btn-success search-btn">Search</button>
-				<a class="reset-page btn btn-secondary" id="restPage" href="/brand" >Reset</a>	
+				<button type="submit" class="reset-page btn btn-secondary" id="resetPage">Reset</button>
 		</div>
-		<table class="table table-bordered" id="brandInfoTable">
+		<div id="showMessage">
+			<span class="messageSearch"></span>
+		</div>
+		<br>
+		<table class="table table table-hover" id="brandInfoTable">
 			<thead>
 				<tr class="text-center">
 					<th scope="col">ID</th>
@@ -69,7 +73,7 @@
 						<div class="form-group" id="brandLogo">
 							<label for="logo">Logo <span class="required-mask">(*)</span></label>
 							<div class="preview-image-upload" id="logoImg">
-								<img src="<c:url value='/images/image-demo.png'/>" alt="image">
+								<img src="<c:url value='/images/download.png'/>" alt="image">
 							</div>
 							<input type="file" class="form-control upload-image"
 								name="logoFiles" accept="image/*" /> 

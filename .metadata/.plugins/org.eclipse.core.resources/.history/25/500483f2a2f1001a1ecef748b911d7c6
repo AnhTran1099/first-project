@@ -1,0 +1,5 @@
+package com.training.dao.jpaspec;
+
+public class ProductJpaSpecification {
+
+}

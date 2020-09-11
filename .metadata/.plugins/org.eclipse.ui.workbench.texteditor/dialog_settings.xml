@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="searchProduct" key="selection"/>
+		<item value="render" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="searchProduct"/>
-			<item value="keyword"/>
-			<item value="&#x09;&#x09;&#x09;searchProduct(pageNumber);"/>
-			<item value="searchProducOrBrandByPrice"/>
-			<item value="searchByPrice"/>
-			<item value="toPrice"/>
-			<item value="findAllProducts"/>
-			<item value="searchProductByName"/>
+			<item value="render"/>
+			<item value="d-none"/>
+			<item value="isClickedSearchBtn"/>
+			<item value="pageNumberList"/>
+			<item value="showMessageSearch"/>
+			<item value="showNotification"/>
+			<item value="productInfoModal"/>
+			<item value="unnamed"/>
 		</list>
 		<list key="replacehistory">
+			<item value="download"/>
 			<item value="priceTo"/>
 			<item value="paginationInfo"/>
 			<item value="paginationList"/>
@@ -27,7 +28,7 @@
 		<item value="305" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="444" key="DIALOG_HEIGHT"/>
-		<item value="1459" key="DIALOG_X_ORIGIN"/>
-		<item value="407" key="DIALOG_Y_ORIGIN"/>
+		<item value="487" key="DIALOG_X_ORIGIN"/>
+		<item value="370" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

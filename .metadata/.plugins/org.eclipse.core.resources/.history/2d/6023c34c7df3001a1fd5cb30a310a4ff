@@ -1,0 +1,299 @@
+:focus {
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+
+header {
+	background: #17a2b8;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+header .dmx-logo {
+	line-height: 30px;
+	background-position: 0 0;
+	width: 174px;
+	height: 32px;
+	display: block;
+	margin-top: 10px;
+}
+
+header .main-logo {
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 2px;
+}
+
+header .nav-link {
+	background-color: #fff;
+	margin-left: 8px;
+	margin-top: 4px;
+	width: 100px;
+	text-align: center;
+	font-weight: 600;
+	border-radius: 3px;
+	border: 1px solid;
+}
+
+header .nav-link {
+	color: #333;
+}
+
+header .nav-link.active {
+	background-color: black;
+	color: #fff;
+}
+
+.sub-header {
+	border: 1px solid #333;
+	border-radius: 5px;
+	height: 46px;
+	padding: 3px 3px;
+	background: #e9ecef;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.sub-header .sub-title {
+	font-weight: 900;
+	color: #333;
+	padding-left: 20px;
+	font-size: 20px;
+	padding-top: 3px;
+}
+
+.action-btns {
+	text-align: center;
+	color: #4a90e2;
+}
+
+.action-btns a {
+	cursor: pointer;
+}
+
+.add-btn {
+	background-color: #17a2b8;
+	margin-bottom: 15px;
+}
+
+.add-product {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.add-brand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-btn:hover {
+	background-color: #20c997;
+}
+
+.modal-content .modal-header {
+	padding: 0.5rem 1rem;
+	background: #e9ecef;
+}
+
+.modal-content .modal-body {
+	padding-bottom: 0.5rem;
+}
+
+.preview-image-upload {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.preview-image-upload img {
+	max-width: 50%;
+}
+
+.message-area {
+	padding: 5px 15px;
+}
+
+div.error-message-invalid, div.error, label.error-message-invalid, label.error
+	{
+	background-color: #f8d7da;
+	position: relative;
+	padding: .375rem .75rem;
+	margin-top: .5rem;
+	border: 1px solid #f5c6cb !important;
+	color: #dc3545 !important;
+	width: 100%;
+	border-radius: .25rem;
+	margin-bottom: 15px;
+}
+
+.pagination {
+	margin-bottom: 30px;
+}
+
+.pagination a {
+	display: block;
+	color: #000000;
+	float: left;
+	margin: 0px 7px 0px 0;
+	padding: 6px 14px 9px;
+	text-decoration: none;
+	transition: background-color .3s;
+	min-width: 36px;
+}
+
+.pagination a.active {
+	color: white;
+	background-color: #000000;
+}
+
+.pagination a.disabled {
+	pointer-events: none;
+	color: #ccc;
+}
+
+.ekko-lightbox .modal-content {
+	border-radius: 5px;
+}
+
+.ekko-lightbox .modal-body {
+	padding: 0.5rem;
+}
+
+.ekko-lightbox .modal-header {
+	height: 0px;
+	border: none;
+	position: relative;
+	padding: 0;
+	border: none;
+	z-index: 1;
+}
+
+.ekko-lightbox .modal-header .close, .ekko-lightbox .modal-header .close:hover
+	{
+	opacity: 1;
+	color: #fff;
+}
+
+.ekko-lightbox .modal-header .close span {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	border: 1px solid #6c757d;
+	background: black;
+	border-radius: 50%;
+	padding: 0px 5px 4px 5px;
+	font-size: 1.2rem;
+}
+
+.ekko-lightbox .modal-header .close:hover span {
+	background: #212529;
+}
+
+.required-mask {
+	color: red;
+	font-weight: bold;
+}
+
+/* TABLE */
+.table-bordered img {
+	max-width: 80px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+	background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+table th {
+	color: white;
+	background-color: #17a2b8;
+}
+/* SEARCH PRODCUT */
+.search-product {
+	display: flex;
+	justify-content: space-between;
+}
+
+.search-product__name {
+	width: 25%;
+	display: flex;
+	align-items: center;
+}
+
+.search-product__price {
+	width: 69%;
+	display: flex;
+	align-items: center;
+}
+
+.price {
+	width: 25%;
+	margin: 0;
+	padding: 0 11px;
+}
+
+.price-labe {
+	width: 13%;
+	font-weight: 600;
+	margin: 0 0px 0 25px;
+}
+
+.price-labe-from {
+	margin: 0px 14px 0 0;
+}
+
+#searchByPrice {
+	padding: 7px 8px;
+	margin: 0px 5px 0px 20px;
+	font-weight: 600;
+}
+/* END SEARCH PRODUCT */
+
+.search-brand__name {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	margin: 0px 20px -32px -1px;
+}
+
+.search-brand {
+	display: flex;
+	margin: -15px 0px 15px 0px
+}
+
+#btnSearch {
+	padding: 7px 8px;
+	margin: 0px 5px 0px 20px;
+	font-weight: 600;
+}
+.messageSearch {
+	color: red;
+}
+.checkbox {
+ display: flex;
+ margin: 20px 20px 20px 0px;
+}
+.btn {
+	color: white;
+}
+.imageLogo {
+	margin: -5px 5px 0px 0px;
+}
+.delete-btn {
+	color: red;
+}

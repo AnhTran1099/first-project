@@ -36,6 +36,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\USER\Downloads\spring-boot-3-auth-master"/>
 			<item value="C:\Users\USER\Downloads\Pilot-Project"/>
 			<item value="C:\Users\USER\Downloads\todo-management-spring-boot-master"/>
 			<item value="C:\Users\USER\Downloads\todo-application-jsp-servlet-jdbc-mysql"/>

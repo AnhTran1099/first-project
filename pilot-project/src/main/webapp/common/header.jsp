@@ -4,9 +4,12 @@
 <header>
 	<div class="container">
 		<div class="d-flex">
-			<div class="main-logo">Pilot Project</div>
+			<div class="main-logo"><img class="imageLogo" src="<c:url value='/images/icons8-spring-logo-48.png'/>" width="40" height="40" alt="image">Pilot Project</div>
 			<a class="ml-5 nav-link" href="/product">Product</a>
 			<a class="nav-link active" href="/brand">Brand</a>
+			<div class="header-left">
+				<a  id="logout" class="nav-link" href="/logout" >Logout</a>
+			</div>
 		</div>
 	</div>
 </header>

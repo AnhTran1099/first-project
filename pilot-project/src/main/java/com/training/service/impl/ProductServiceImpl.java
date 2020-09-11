@@ -20,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.training.common.constant.Constants;
 import com.training.common.util.FileHelper;
 import com.training.dao.IProductDAO;
+import com.training.dao.jpaspec.ProductJpaSpecification;
 import com.training.entity.ProductEntity;
 import com.training.model.PagerModel;
 import com.training.model.ResponseDataModel;
@@ -169,15 +170,11 @@ public class ProductServiceImpl implements IProductService{
 	public ResponseDataModel searchByNameAndPrice(Map<String, Object> searchConditions, int pageNumber) {
 		int responseCode = Constants.RESULT_CD_FAIL;
 		String responseMsg = StringUtils.EMPTY;
-		Map<String, Object> responseMap = new HashMap<String, Object>();
+		Map<String, Object> responseMap = new HashMap<>();
 		try { 	
 			Sort sortList = Sort.by(Sort.Direction.DESC,"productId");
 			Pageable pageable = PageRequest.of(pageNumber - 1, Constants.PAGE_SIZE, sortList);
-			Page<ProductEntity> productEntitesPage = productDao.searchProductByNameAndPrice(
-					(String) searchConditions.getOrDefault(Constants.PROP_KEY_KEYWORD, StringUtils.EMPTY),
-					Double.parseDouble((String) searchConditions.getOrDefault(Constants.PROP_KEY_PRICE_FROM, "0")),
-					Double.parseDouble((String) searchConditions.getOrDefault(Constants.PROP_KEY_PRICE_TO, "1000000000")),
-					pageable);
+			Page<ProductEntity> productEntitesPage = productDao.findAll(ProductJpaSpecification.getSearchCriteria(searchConditions), pageable);
 			responseMap.put("productsList", productEntitesPage.getContent());
 			responseMap.put("paginationInfo", new PagerModel(pageNumber, productEntitesPage.getTotalPages()));
 			if ( productEntitesPage.getTotalElements() > 0) {

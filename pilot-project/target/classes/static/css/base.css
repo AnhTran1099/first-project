@@ -197,12 +197,13 @@ div.error-message-invalid, div.error, label.error-message-invalid, label.error
 }
 
 /* TABLE */
-.table-bordered img {
+
+.table-hover img {
 	max-width: 80px;
 }
 
 table, th, td {
-	border: 1px solid black;
+	border-top: 1px solid lightcy
 	border-collapse: collapse;
 }
 
@@ -211,19 +212,13 @@ th, td {
 	text-align: center;
 }
 
-table tr:nth-child(even) {
-	background-color: #eee;
-}
-
-table tr:nth-child(odd) {
-	background-color: #fff;
-}
-
 table th {
 	color: white;
 	background-color: #17a2b8;
 }
+
 /* SEARCH PRODCUT */
+
 .search-product {
 	display: flex;
 	justify-content: space-between;
@@ -280,4 +275,30 @@ table th {
 	padding: 7px 8px;
 	margin: 0px 5px 0px 20px;
 	font-weight: 600;
+}
+
+.messageSearch {
+	color: red;
+}
+
+.checkboxSearch {
+ display: flex;
+ margin: 20px 0px 20px -30px;
+ flex-wrap: wrap;
+}
+
+.brandClass {
+	margin: 0px 0px 0px 30px;
+}
+
+.btn {
+	color: white;
+}
+
+.imageLogo {
+	margin: -5px 5px 0px 0px;
+}
+
+.header-left {
+	margin-left: 480px;
 }

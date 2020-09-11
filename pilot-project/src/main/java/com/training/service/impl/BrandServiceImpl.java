@@ -20,6 +20,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.training.common.constant.Constants;
 import com.training.common.util.FileHelper;
 import com.training.dao.IBrandDao;
+import com.training.dao.jpaspec.BrandJpaSpecification;
 import com.training.entity.BrandEntity;
 import com.training.model.PagerModel;
 import com.training.model.ResponseDataModel;
@@ -162,18 +163,22 @@ public class BrandServiceImpl implements IBrandService {
 	}
 
 	@Override
-	public ResponseDataModel searchApi(String keyword, int pageNumber) {
+	public ResponseDataModel searchApi(Map<String, Object> searchConditions, int pageNumber) {
 		int responseCode = Constants.RESULT_CD_FAIL;
 		String responseMsg = StringUtils.EMPTY;
 		Map<String, Object> responseMap = new HashMap<>();
 		try {
 			Sort sortInfo = Sort.by(Sort.Direction.DESC,"brandId");
 			Pageable pageable = PageRequest.of(pageNumber - 1, Constants.PAGE_SIZE, sortInfo);
-			Page<BrandEntity> pages = brandDao.findByBrandNameLike("%"+keyword+"%", pageable);
-			responseMap.put("brandsList", pages.getContent());
-			responseMap.put("paginationInfo", new PagerModel(pageNumber, pages.getTotalPages()));
+			Page<BrandEntity> brandEntitesPage = brandDao.findAll(BrandJpaSpecification.getSearchCriteria(searchConditions),pageable);
+			responseMap.put("brandsList", brandEntitesPage.getContent());
+			responseMap.put("paginationInfo", new PagerModel(pageNumber, brandEntitesPage.getTotalPages()));
 			responseCode = Constants.RESULT_CD_SUCCESS;
-			responseMsg = "Show search results: " + pages.getTotalElements() +" brand";
+			if ( brandEntitesPage.getTotalElements() > 0) {
+				responseMsg = "The number of brand found is " + brandEntitesPage.getTotalElements() + " brand";
+			} else {
+				responseMsg = "No result brand. Please try refining your search and go again.";
+			}
  		} catch (Exception e) {
 			responseMsg = e.getMessage();
 			LOGGER.error("Error when search brand: ", e);

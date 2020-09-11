@@ -1,6 +1,7 @@
 package com.training.service;
 
 import java.util.List;
+import java.util.Map;
 
 import com.training.entity.BrandEntity;
 import com.training.model.ResponseDataModel;
@@ -21,6 +22,6 @@ public interface IBrandService {
 
 	ResponseDataModel deleteApi(Long brandId);
 
-	ResponseDataModel searchApi(String keyword, int pageNumber);
+	ResponseDataModel searchApi(Map<String, Object> searchConditions, int pageNumber);
 
 }

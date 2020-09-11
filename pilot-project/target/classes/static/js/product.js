@@ -12,19 +12,41 @@ $(document).ready(function() {
 			findAllProducts(pageNumber);
 		}
 	});	
-	
-	$('#searchByPrice').on('click', function() {
-		searchProduct(1, true);
-	});
 
+	var listbrand = [];
+		$('.brandClass').on('click',function() {
+			listbrand=[];
+			$('.checkboxSearch').find('input[name="brand.logo"]:checked').each(
+					function() {
+						listbrand.push($(this).val());
+					})
+			console.log(listbrand);
+		});
+		
 	var $productInfoForm = $('#productInfoForm');
 	var $productInfoModal = $('#productInfoModal');
 
+	$('#searchByPrice').on('click', function() {
+		searchProduct(1, true,listbrand);
+	});
+	
+	//Reset
+	$('#resetPage').on('click', function(event) {
+		//Reset check box
+		$('input[type=checkbox]').each(function() { 
+			this.checked = false; 
+		}); 
+		//Reset keyword
+		$('#keyword').val("");
+		listbrand = [];
+		findAllProducts(1);
+	})
+	
 	// Show add product modal
 	$('#addProductInfoModal').on('click', function() {
 		resetFormModal($productInfoForm);
 		showModalWithCustomizedTitle($productInfoModal, "Add Product");
-		$('#productImg img').attr('src', '/images/image-demo.png');
+		$('#productImg img').attr('src', '/images/download.png');
 		$('#productId').closest(".form-group").addClass("d-none");
 		$("#productImage .required-mask").removeClass("d-none");
 	});
@@ -54,7 +76,7 @@ $(document).ready(function() {
 					$('#saleDate').val(productInfo.saleDate);
 					var productImage = productInfo.image;
 					if (productImage == null || productImage == "") {
-						productImage = "/images/image-demo.png";
+						productImage = "/images/download.png";
 					}
 					$("#productImg img").attr("src", productImage);
 					$("#image").val(productImage);
@@ -112,7 +134,7 @@ $(document).ready(function() {
 					required: true
 				},
 				saleDate: {
-					required: isAddAction,
+					required: true,
 				},
 				imageFiles: {
 					required: isAddAction,
@@ -132,7 +154,7 @@ $(document).ready(function() {
 					maxlength: "Price is number"
 				},
 				brandName: {
-					required: "Brand is required",
+					required: "Brand Name is required",
 				},
 				saleDate: {
 					required: "Please input Opening For Sale",
@@ -184,6 +206,9 @@ function findAllProducts(pagerNumber) {
 			if (responseData.responseCode == 100) {
 				renderProductsTable(responseData.data.productsList);
 				renderPagination(responseData.data.paginationInfo);
+				if($('.pagination').removeClass("d-none")){
+					$("#showMessage span").empty();
+				}
 			}
 		}
 	});
@@ -198,9 +223,9 @@ function renderProductsTable(productsList) {
 				+		"<td>" + value.productId + "</td>"
 				+		"<td>" + value.productName + "</td>"
 				+		"<td>" + value.quantity + "</td>"
-				+		"<td>" + value.price + "</td>"
+				+		"<td>" + (formatMoney(value.price)) + "</td>"
 				+		"<td>" + value.brandEntity.brandName + "</td>"
-				+		"<td>" + value.saleDate + "</td>"
+				+		"<td>" + (renderDate(value.saleDate)) + "</td>"
 				+		"<td class='text-center'><a href='" + value.image + "' data-toggle='lightbox' data-max-width='1000'><img class='img-fluid' src='" + value.image + "'></td>"
 				+		"<td class='action-btns'>"
 				+			"<a class='edit-btn' data-id='" + value.productId + "'><i class='fas fa-edit'></i></a> | <a class='delete-btn' data-name='" + value.productName + "' data-id='" + value.productId + "'><i class='fas fa-trash-alt'></i></a>"
@@ -226,11 +251,13 @@ function renderPagination(paginationInfo) {
 	}
 }
 
-function searchProduct(pageNumber, isClickedSearchBtn) {
+function searchProduct(pageNumber, isClickedSearchBtn,listbrand) {
 	var searchConditions = {
 			keyword: $("#keyword").val(),
 			priceFrom:$("#priceFrom").val(),
-			priceTo:$("#priceTo").val()
+			priceTo:$("#priceTo").val(),
+			list : listbrand
+			
 		}
 		$.ajax({
 			url: '/product/api/searchProduct/' + pageNumber,
@@ -241,11 +268,42 @@ function searchProduct(pageNumber, isClickedSearchBtn) {
 				if(responseData.responseCode == 100) {
 					renderProductsTable(responseData.data.productsList);
 					renderPagination(responseData.data.paginationInfo);
-					if (isClickedSearchBtn) {
-						showNotification(true, responseData.responseMsg);
+//					if (isClickedSearchBtn) {
+//						showNotification(true, responseData.responseMsg);
+//					}					
+					if (responseData.data.paginationInfo.pageNumberList.length <2) {
+						$('.pagination').addClass("d-none");
+					}else {
+						$('.pagination').removeClass("d-none")
 					}
+					showMessageSearch(responseData.responseMsg);
 				}
 			},
 			data: JSON.stringify(searchConditions)
 		});
 }
+
+function showMessageSearch(responseMsg) {
+	$("#showMessage span").empty();
+		$("#showMessage span").append(responseMsg);
+}
+
+function renderDate(date){
+	let data= new Date(date);
+    let month = data.getMonth() + 1;
+    let day = data.getDate();
+    let year = data.getFullYear()
+    if(day<=9)
+      day = '0' + day;
+    if(month<10)
+      month = '0' + month;
+    const postDate = day + '-' + month + '-' + year;
+    return postDate;
+}
+
+function formatMoney(number) {
+	  return number.toLocaleString('it-IT', { style: 'currency', currency: 'VND' });
+	}
+
+	console.log(formatMoney(10000));   // $10,000.00
+	console.log(formatMoney(1000000)); // $1,000,000.00

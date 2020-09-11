@@ -66,6 +66,8 @@ public class ProductController {
 		return productService.deleteProduct(productId);
 	}	
 	
+	//Search product
+	
 	@PostMapping(value = {"/api/searchProduct/{pageNumber}"})
 	@ResponseBody
 	public ResponseDataModel searchProduct(@RequestBody Map<String, Object> searchConditions, 

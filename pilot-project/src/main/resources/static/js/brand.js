@@ -3,20 +3,23 @@ $(document).ready(function() {
 	// Show brands list when opening page
 	findAllBrands(1);
 	
-	// Search
-	$('#btnSearch').on('click', function() {
+	$('.pagination').on('click', '.page-link', function() {
+		var pagerNumber = $(this).attr("data-index");
 		var keyword = $('#keyword').val();
-		searchBrand(keyword,1);
+		if(keyword !=""){
+			searchBrand(pagerNumber);
+		}else{
+			findAllBrands(pagerNumber);
+		}
 	})
 	
-	$('.pagination').on('click', '.page-link', function() {
-		var pageNumber = $(this).attr("data-index");
-		var keyword = $('#keyword').val();
-		if(keyword != ""){
-			searchBrand(keyword,pageNumber);
-		}else{
-			findAllBrands(pageNumber);
-		}
+	// Search
+	$('#btnSearch').on('click', function() {
+		searchBrand(1, true);
+	});
+	
+	$('#resetPage').on('click', function(event) {
+		findAllBrands(1);
 	})
 
 	var $brandInfoForm = $('#brandInfoForm');
@@ -26,7 +29,7 @@ $(document).ready(function() {
 	$('#addBrandInfoModal').on('click', function() {
 		resetFormModal($brandInfoForm);
 		showModalWithCustomizedTitle($brandInfoModal, "Add Brand");
-		$('#logoImg img').attr('src', '/images/image-demo.png');
+		$('#logoImg img').attr('src', '/images/download.png');
 		$('#brandId').closest(".form-group").addClass("d-none");
 		$("#brandLogo .required-mask").removeClass("d-none");
 	});
@@ -54,7 +57,7 @@ $(document).ready(function() {
 
 					var brandLogo = brandInfo.logo;
 					if (brandLogo == null || brandLogo == "") {
-						brandLogo = "/images/image-demo.png";
+						brandLogo = "/images/download.png";
 					}
 					$("#logoImg img").attr("src", brandLogo);
 					$("#logo").val(brandLogo);
@@ -148,23 +151,33 @@ $(document).ready(function() {
 	});
 });
 
-function searchBrand(keyword,pageNumber) {
+function searchBrand(pageNumber,isClickedSearchBtn) {
+	var searchConditions = {
+			keyword: $("#keyword").val(),
+	}
 	$.ajax({
-		url : "/brand/api/search/" + keyword +"/" + pageNumber,
-		type : 'GET',
+		url : '/brand/api/search/' +pageNumber,
+		type : 'POST',
 		dataType : 'json',
 		contentType : 'application/json',
 		success : function(responseData) {
 			if (responseData.responseCode == 100) {
 				renderBrandsTable(responseData.data.brandsList);
-				console.log(responseData.data.brandsList);
+				console.log(responseData.data.brandsList)
 				renderPagination(responseData.data.paginationInfo);
-				if(pageNumber==1){
-					showNotification(true, responseData.responseMsg);
+//				if (isClickedSearchBtn) {
+//					showNotification(true, responseData.responseMsg);
+//					}
+				if (responseData.data.paginationInfo.pageNumberList.length <2) {
+					$('.pagination').addClass("d-none");
+				}else {
+					$('.pagination').removeClass("d-none")
+					}
+				showMessageSearch(responseData.responseMsg);
 				}
-			}
-		}
-	})
+			},
+			data: JSON.stringify(searchConditions)
+		});
 }
  
 function findAllBrands(pagerNumber) {
@@ -214,4 +227,8 @@ function renderPagination(paginationInfo) {
 		paginationInnerHtml += '<li class="page-item"><a class="page-link ' + (paginationInfo.lastPage == 0 ? 'disabled' : '') + '" href="javascript:void(0)" data-index="'+ paginationInfo.lastPage + '">Last</a></li>'
 		$("ul.pagination").append(paginationInnerHtml);
 	}
+}
+function showMessageSearch(responseMsg) {
+	$("#showMessage span").empty();
+		$("#showMessage span").append(responseMsg);
 }

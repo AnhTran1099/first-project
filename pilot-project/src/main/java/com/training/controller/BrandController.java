@@ -1,5 +1,7 @@
 package com.training.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -58,9 +61,9 @@ public class BrandController {
 		return brandService.deleteApi(brandId);
 	}
 	
-	@GetMapping("/api/search/{keyword}/{pageNumber}")
+	@PostMapping("/api/search/{pageNumber}")
 	@ResponseBody
-	public ResponseDataModel searchApi(@PathVariable("keyword") String keyword, @PathVariable("pageNumber") int pageNumber) {
-		return brandService.searchApi(keyword, pageNumber);
+	public ResponseDataModel searchApi(@RequestBody Map<String, Object> searchConditions, @PathVariable("pageNumber") int pageNumber) {
+		return brandService.searchApi(searchConditions, pageNumber);
 	}
 }

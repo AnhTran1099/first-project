@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Tue Sep 01 00:01:18 ICT 2020
+#Thu Sep 10 18:07:23 ICT 2020
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\USER\\.m2\\repository\\org\\springframework\\spring-web\\5.0.5.RELEASE\\spring-web-5.0.5.RELEASE.jar=WEB-INF/lib/spring-web-5.0.5.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\USER\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\8.5.29\\tomcat-embed-websocket-8.5.29.jar=WEB-INF/lib/tomcat-embed-websocket-8.5.29.jar
 org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\USER\\.m2\\repository\\org\\springframework\\spring-web\\5.2.7.RELEASE\\spring-web-5.2.7.RELEASE.jar=WEB-INF/lib/spring-web-5.2.7.RELEASE.jar
