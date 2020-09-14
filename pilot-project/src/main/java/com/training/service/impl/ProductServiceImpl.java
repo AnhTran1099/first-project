@@ -178,7 +178,7 @@ public class ProductServiceImpl implements IProductService{
 			responseMap.put("productsList", productEntitesPage.getContent());
 			responseMap.put("paginationInfo", new PagerModel(pageNumber, productEntitesPage.getTotalPages()));
 			if ( productEntitesPage.getTotalElements() > 0) {
-				responseMsg = "Show search results: " + productEntitesPage.getTotalElements() + " product";
+				responseMsg = "Search results: " + productEntitesPage.getTotalElements() + " product";
 			} else {
 				responseMsg = "No result for product. Please try refining your search and go again.";
 			}

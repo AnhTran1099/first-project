@@ -175,7 +175,7 @@ public class BrandServiceImpl implements IBrandService {
 			responseMap.put("paginationInfo", new PagerModel(pageNumber, brandEntitesPage.getTotalPages()));
 			responseCode = Constants.RESULT_CD_SUCCESS;
 			if ( brandEntitesPage.getTotalElements() > 0) {
-				responseMsg = "The number of brand found is " + brandEntitesPage.getTotalElements() + " brand";
+				responseMsg = "Search results: " + brandEntitesPage.getTotalElements() + " brand";
 			} else {
 				responseMsg = "No result brand. Please try refining your search and go again.";
 			}

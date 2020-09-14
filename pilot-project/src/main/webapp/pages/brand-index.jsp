@@ -28,8 +28,7 @@
 		<div id="showMessage">
 			<span class="messageSearch"></span>
 		</div>
-		<br>
-		<table class="table table table-hover" id="brandInfoTable">
+		<table class="table table-bordered" id="brandInfoTable">
 			<thead>
 				<tr class="text-center">
 					<th scope="col">ID</th>

@@ -35,21 +35,22 @@ public class ProductJpaSpecification {
 					String priceTo = (String) searchConditionsMap.get("priceTo");
 					List<String> listbrand = (List<String>) searchConditionsMap.get("list");
 					Join<ProductEntity, BrandEntity> brandRoot = productRoot.join("brandEntity");
+					// Keyword
 					if (StringUtils.isNotEmpty(search)) {						
 						predicates.add(criteriaBuilder.or (
 								criteriaBuilder.like(productRoot.get("productName"), "%" + search + "%"),
 								criteriaBuilder.like(brandRoot.get("brandName"), "%" + search + "%")));	
 					}
-					//Returns a constraint that defines one item's attribute as greater than or equal to price.
+					//	Returns a constraint that defines one item's attribute as greater than or equal to price.
 					if (StringUtils.isNotEmpty(priceFrom)) {
 						predicates.add(criteriaBuilder.greaterThanOrEqualTo(productRoot.get("price"), Double.parseDouble(priceFrom)));
 					}
-					//Returns a constraint that defines one item's attribute as less than or equal to price.
+					//	Returns a constraint that defines one item's attribute as less than or equal to price.
 					if (StringUtils.isNotEmpty(priceTo)) {
 						predicates.add(criteriaBuilder.lessThanOrEqualTo(productRoot.get("price"), Double.parseDouble(priceTo)));
 					}
 					// Brand Predicate
-					if (!CollectionUtils.isEmpty(listbrand) ) {
+					if (!CollectionUtils.isEmpty(listbrand)) {
 						List<Predicate> brandIdPredicateList = new ArrayList<>();
 						for (String brandId : listbrand) {
 							brandIdPredicateList.add(criteriaBuilder.equal(brandRoot.get("brandId"), Long.parseLong(brandId)));

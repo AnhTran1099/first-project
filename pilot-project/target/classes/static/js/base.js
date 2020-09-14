@@ -17,6 +17,7 @@ $(document).ready(function() {
 		var $parent = $(this).parent();
 		if (file) {
 			fileUrl = url.createObjectURL(file);
+			$parent.find('.error-message-invalid[id$="-error"]').remove();
 			$parent.find(".error-message-invalid").removeClass("error-message-invalid");
 		} else {
 			var oldImagePath = $parent.find(".old-img").val();

@@ -16,7 +16,7 @@ public class Constants {
 	public static final String PROP_KEY_ROOT_FOLDER = "root.storage.folder";
 
 	/** The number of record per each page */
-	public static final int PAGE_SIZE = 5;
+	public static final int PAGE_SIZE = 10;
 	
 	/** Response Code */
 	public static final int RESULT_CD_FAIL = 0;

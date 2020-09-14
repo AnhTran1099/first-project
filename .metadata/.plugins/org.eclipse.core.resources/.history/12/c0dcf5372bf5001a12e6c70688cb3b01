@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<header>
+	<div class="container">
+	<a href="#" class="navbar-brand">Pilot Project</a>
+		<div class="d-flex">
+			
+			
+			<div class="navbar-nav">
+			<a class="nav-item nav-link" href="/product">Product</a>
+			<a class="nav-item nav-link active" href="/brand">Brand</a>
+			</div>
+			<div class="navbar-nav ml-auto">
+				<a id="logout" class="nav-item nav-link" href="/logout" >Logout</a>
+			</div>
+		</div>
+	</div>
+</header>

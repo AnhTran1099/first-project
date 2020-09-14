@@ -19,6 +19,9 @@ $(document).ready(function() {
 	});
 	
 	$('#resetPage').on('click', function(event) {
+		//	Reset keyword
+		$('#keyword').val("");
+		listbrand = [];
 		findAllBrands(1);
 	})
 
@@ -190,6 +193,9 @@ function findAllBrands(pagerNumber) {
 			if (responseData.responseCode == 100) {
 				renderBrandsTable(responseData.data.brandsList);
 				renderPagination(responseData.data.paginationInfo);
+				if($('.pagination').removeClass("d-none")) {
+					$("#showMessage span").empty();
+				}
 			}
 		}
 	});
@@ -202,9 +208,9 @@ function renderBrandsTable(brandsList) {
 	$.each(brandsList, function(key, value) {
 		rowHtml = "<tr>"
 				+		"<td>" + value.brandId + "</td>"
-				+		"<td>" + value.brandName + "</td>"
+				+		"<td class='text-left'>" + value.brandName + "</td>"
 				+		"<td class='text-center'><a href='" + value.logo + "' data-toggle='lightbox' data-max-width='1000'><img class='img-fluid' src='" + value.logo + "'></td>"
-				+		"<td>" + value.description + "</td>"
+				+		"<td class='text-left'>" + value.description + "</td>"
 				+		"<td class='action-btns'>"
 				+			"<a class='edit-btn' data-id='" + value.brandId + "'><i class='fas fa-edit'></i></a> | <a class='delete-btn' data-name='" + value.brandName + "' data-id='" + value.brandId + "'><i class='fas fa-trash-alt'></i></a>"
 				+		"</td>"

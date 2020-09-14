@@ -6,46 +6,62 @@ $(document).ready(function() {
 	$('.pagination').on('click', '.page-link', function() {
 		var pageNumber = $(this).attr("data-index");
 		var keyword = $('#keyword').val();
-		if ( keyword != "" ) {
-			searchProduct(pageNumber);
+		
+		if ( keyword != "" || listBrand !="") {
+			searchProduct(pageNumber,true,listBrand);
 		} else {
 			findAllProducts(pageNumber);
 		}
 	});	
-
-	var listbrand = [];
+	
+	var listBrand = [];
 		$('.brandClass').on('click',function() {
-			listbrand=[];
+			listBrand= [];
 			$('.checkboxSearch').find('input[name="brand.logo"]:checked').each(
 					function() {
-						listbrand.push($(this).val());
+						listBrand.push($(this).val());
 					})
-			console.log(listbrand);
+			console.log(listBrand);
 		});
 		
 	var $productInfoForm = $('#productInfoForm');
 	var $productInfoModal = $('#productInfoModal');
-
+	
 	$('#searchByPrice').on('click', function() {
-		searchProduct(1, true,listbrand);
+		searchProduct(1, true,listBrand);
 	});
 	
-	//Reset
+	//	Reset
 	$('#resetPage').on('click', function(event) {
-		//Reset check box
+		//	Reset check box
 		$('input[type=checkbox]').each(function() { 
 			this.checked = false; 
 		}); 
-		//Reset keyword
+		//	Reset keyword
 		$('#keyword').val("");
-		listbrand = [];
+		listBrand = [];
+		$('#priceFrom').val("");
+		$('#priceTo').val("")
 		findAllProducts(1);
 	})
+	
+	/* Set current day default for sale date*/
+	var date = new Date();
+
+	var day = date.getDate();
+	var month = date.getMonth() + 1;
+	var year = date.getFullYear();
+	
+	if (month < 10) month = "0" + month;
+	if (day < 10) day = "0" + day;
+	
+	var today = year + "-" + month + "-" + day;
 	
 	// Show add product modal
 	$('#addProductInfoModal').on('click', function() {
 		resetFormModal($productInfoForm);
 		showModalWithCustomizedTitle($productInfoModal, "Add Product");
+		$('input[name=saleDate]').val(today);
 		$('#productImg img').attr('src', '/images/download.png');
 		$('#productId').closest(".form-group").addClass("d-none");
 		$("#productImage .required-mask").removeClass("d-none");
@@ -196,6 +212,35 @@ $(document).ready(function() {
 	});
 });
 
+function searchProduct(pageNumber, isClickedSearchBtn,listBrand) {
+	var searchConditions = {
+			keyword: $("#keyword").val(),
+			priceFrom:$("#priceFrom").val(),
+			priceTo:$("#priceTo").val(),
+			list : listBrand
+			
+		}
+		$.ajax({
+			url: '/product/api/searchProduct/' + pageNumber,
+			type: 'POST',
+			dataType: 'json',
+			contentType: 'application/json',
+			success: function (responseData) {
+				if(responseData.responseCode == 100) {
+					renderProductsTable(responseData.data.productsList);
+					renderPagination(responseData.data.paginationInfo);				
+					if (responseData.data.paginationInfo.pageNumberList.length <2) {
+						$('.pagination').addClass("d-none");
+					}else {
+						$('.pagination').removeClass("d-none");
+					}
+					showMessageSearch(responseData.responseMsg);
+				}
+			},
+			data: JSON.stringify(searchConditions)
+		});
+}
+
 function findAllProducts(pagerNumber) {
 	$.ajax({
 		url : "/product/api/findAll/" + pagerNumber,
@@ -221,9 +266,9 @@ function renderProductsTable(productsList) {
 	$.each(productsList, function(key, value) {
 		rowHtml = "<tr>"
 				+		"<td>" + value.productId + "</td>"
-				+		"<td>" + value.productName + "</td>"
+				+		"<td class='text-left'>" + value.productName + "</td>"
 				+		"<td>" + value.quantity + "</td>"
-				+		"<td>" + (formatMoney(value.price)) + "</td>"
+				+		"<td class='text-right'>" + (formatMoney(value.price)) + "₫</td>"
 				+		"<td>" + value.brandEntity.brandName + "</td>"
 				+		"<td>" + (renderDate(value.saleDate)) + "</td>"
 				+		"<td class='text-center'><a href='" + value.image + "' data-toggle='lightbox' data-max-width='1000'><img class='img-fluid' src='" + value.image + "'></td>"
@@ -251,37 +296,6 @@ function renderPagination(paginationInfo) {
 	}
 }
 
-function searchProduct(pageNumber, isClickedSearchBtn,listbrand) {
-	var searchConditions = {
-			keyword: $("#keyword").val(),
-			priceFrom:$("#priceFrom").val(),
-			priceTo:$("#priceTo").val(),
-			list : listbrand
-			
-		}
-		$.ajax({
-			url: '/product/api/searchProduct/' + pageNumber,
-			type: 'POST',
-			dataType: 'json',
-			contentType: 'application/json',
-			success: function (responseData) {
-				if(responseData.responseCode == 100) {
-					renderProductsTable(responseData.data.productsList);
-					renderPagination(responseData.data.paginationInfo);
-//					if (isClickedSearchBtn) {
-//						showNotification(true, responseData.responseMsg);
-//					}					
-					if (responseData.data.paginationInfo.pageNumberList.length <2) {
-						$('.pagination').addClass("d-none");
-					}else {
-						$('.pagination').removeClass("d-none")
-					}
-					showMessageSearch(responseData.responseMsg);
-				}
-			},
-			data: JSON.stringify(searchConditions)
-		});
-}
 
 function showMessageSearch(responseMsg) {
 	$("#showMessage span").empty();
@@ -302,8 +316,5 @@ function renderDate(date){
 }
 
 function formatMoney(number) {
-	  return number.toLocaleString('it-IT', { style: 'currency', currency: 'VND' });
-	}
-
-	console.log(formatMoney(10000));   // $10,000.00
-	console.log(formatMoney(1000000)); // $1,000,000.00
+	return number.toLocaleString('vi-VN', { useGrouping: true });
+}

@@ -29,13 +29,8 @@
                                 <label for="password" class="text-info">Password:</label><br>
                                 <input class="form-control" name="password" placeholder="Enter Password" type="password" required="required">
                             </div>
-                            <div class="form-group">
-                                <label>
-          						<input type="checkbox" value="remember-me"> Remember me</label><br>
+                            <div class="form-group">                   
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Sign in">
-                            </div>
-                            <div id="register-link" class="text-right">
-                                <a href="#" class="text-info">Register here</a>
                             </div>
                         </form>
                     </div>
