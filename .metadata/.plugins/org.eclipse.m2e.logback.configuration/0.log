@@ -13806,3 +13806,543 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-09-14 10:12:42,592 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-09-14 10:12:42,596 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-09-14 10:12:42,596 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 13:39:07,409 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:39:07,423 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 13:39:07,466 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 68 resources
+2020-09-14 13:39:07,497 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:39:07,498 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 13:48:14,335 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:48:14,344 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:48:14,344 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 13:48:14,360 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:48:14,360 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 13:48:29,167 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:48:29,167 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:48:29,168 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 13:48:29,179 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:48:29,179 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 13:50:21,514 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:50:21,514 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:50:21,514 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 13:50:21,529 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:50:21,529 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 13:50:36,121 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:50:36,121 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:50:36,121 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 13:50:36,133 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:50:36,133 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 13:52:32,342 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:52:32,342 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:52:32,342 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:52:32,344 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 13:52:32,344 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:02:38,897 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:02:38,898 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:02:38,898 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:02:38,901 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:02:38,901 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:03:39,374 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:03:39,374 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:03:39,374 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:03:39,397 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:03:39,397 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:04:20,358 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:04:20,359 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:04:20,359 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:04:20,381 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:04:20,381 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:08:41,454 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:08:41,455 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:08:41,455 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:08:41,456 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:08:41,456 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:09:09,240 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:09:09,241 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:09,242 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:09,246 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:09:09,247 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:12:10,618 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:12:10,618 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:10,618 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:12:10,630 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:12:10,630 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:12:41,047 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:12:41,048 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:41,049 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:12:41,070 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:12:41,070 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:16:28,837 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:16:28,838 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:16:28,839 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:16:28,861 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:16:28,861 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:23:07,395 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:23:07,396 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:23:07,396 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:23:07,398 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:23:07,398 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:23:48,142 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:23:48,142 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:23:48,142 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:23:48,144 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:23:48,144 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:24:47,060 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:24:47,060 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:24:47,060 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:24:47,062 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:24:47,062 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:30:19,527 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:30:19,527 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:30:19,527 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:30:19,549 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:30:19,549 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:32:15,553 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:32:15,553 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:32:15,553 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:32:15,565 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:32:15,566 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:36:20,261 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:36:20,261 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:36:20,261 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:36:20,264 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:36:20,264 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:36:25,195 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:36:25,196 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:36:25,196 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:36:25,198 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:36:25,198 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:36:56,292 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:36:56,292 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:36:56,293 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:36:56,312 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:36:56,312 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:37:23,286 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:37:23,286 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:37:23,286 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:37:23,289 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:37:23,289 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:37:26,955 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:37:26,956 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:37:26,956 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:37:26,973 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:37:26,973 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:39:15,744 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:39:15,744 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:39:15,744 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:39:15,757 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:39:15,757 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:39:25,817 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:39:25,817 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:39:25,817 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:39:25,831 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:39:25,831 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:42:07,695 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:42:07,696 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:42:07,696 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:42:07,709 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:42:07,710 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:42:25,770 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:42:25,771 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:42:25,771 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:42:25,787 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:42:25,787 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:42:52,821 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:42:52,821 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:42:52,821 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:42:52,836 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:42:52,836 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:43:05,859 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:43:05,860 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:43:05,860 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:43:05,877 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:43:05,877 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:47:24,994 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:47:24,994 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:47:24,994 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:47:25,006 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:47:25,006 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:47:41,714 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:47:41,715 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:47:41,715 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:47:41,746 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:47:41,747 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:48:29,340 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:48:29,340 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:48:29,341 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:48:29,351 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:48:29,351 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:49:15,594 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:49:15,594 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:49:15,595 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:49:15,617 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:49:15,617 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:55:50,915 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:55:50,915 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:55:50,915 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:55:50,928 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:55:50,928 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:57:32,832 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:57:32,832 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:57:32,832 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:57:32,844 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:57:32,844 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:57:49,127 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:57:49,127 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:57:49,128 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:57:49,129 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:57:49,129 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:58:17,880 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:58:17,880 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:58:17,880 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:58:17,881 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:58:17,881 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 14:58:30,187 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:58:30,187 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:58:30,188 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:58:30,191 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 14:58:30,192 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:04:36,025 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:04:36,026 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:04:36,026 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:04:36,027 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:04:36,028 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:06:24,881 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:06:24,881 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:06:24,882 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:06:24,885 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:06:24,886 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:06:28,512 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:06:28,512 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:06:28,512 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:06:28,516 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:06:28,516 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:06:34,902 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:06:34,903 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:06:34,903 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:06:34,906 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:06:34,906 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:10:25,506 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:10:25,506 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:10:25,506 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:10:25,508 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:10:25,508 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:10:34,702 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:10:34,702 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:10:34,702 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:10:34,704 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:10:34,704 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:11:51,964 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:11:51,964 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:11:51,964 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:11:51,966 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:11:51,966 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:23:42,464 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:23:42,464 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:23:42,465 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:23:42,466 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:23:42,466 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:23:53,157 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:23:53,157 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:23:53,157 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:23:53,160 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:23:53,161 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:33:41,198 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:33:41,199 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:33:41,199 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 15:33:41,204 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:33:41,204 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:34:16,971 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:34:16,972 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:34:16,972 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 15:34:16,977 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:34:16,977 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:38:55,323 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:38:55,324 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:38:55,325 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 15:38:55,332 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:38:55,333 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:40:03,619 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:40:03,619 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:40:03,620 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 15:40:03,627 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:40:03,627 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:41:24,162 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:41:24,162 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:41:24,162 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 15:41:24,167 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:41:24,167 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 15:55:38,636 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:55:38,636 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 15:55:38,636 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 15:55:38,656 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 15:55:38,656 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:01:15,124 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:01:15,125 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:01:15,126 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:01:15,168 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:01:15,168 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:01:28,530 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:01:28,530 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:01:28,531 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:01:28,560 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:01:28,560 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:02:43,759 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:02:43,760 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:02:43,760 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:02:43,761 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:02:43,761 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:02:51,463 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:02:51,463 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:02:51,463 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:02:51,466 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:02:51,466 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:03:06,026 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:03:06,026 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:03:06,026 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:03:06,049 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:03:06,049 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:04:17,379 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:04:17,380 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:04:17,380 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:04:17,383 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:04:17,383 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:05:13,457 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:13,458 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:13,458 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:13,461 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:13,461 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:05:29,842 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:29,843 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:29,844 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:29,848 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:29,848 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:05:33,355 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:33,356 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:33,356 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:33,359 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:33,360 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:05:39,444 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:39,445 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:05:39,445 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:05:39,462 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:05:39,463 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:38:35,447 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:38:35,447 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:38:35,447 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:38:35,468 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:38:35,468 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:38:53,836 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:38:53,836 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:38:53,836 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:38:53,859 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:38:53,859 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:40:30,164 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:40:30,165 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:40:30,165 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:40:30,202 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:40:30,202 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:40:43,213 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:40:43,213 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:40:43,214 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 16:40:43,252 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:40:43,252 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:57:37,145 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:57:37,145 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:57:37,145 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:57:37,147 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:57:37,147 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 16:58:07,797 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:58:07,797 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:58:07,797 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 16:58:07,799 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 16:58:07,799 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 17:13:29,068 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 17:13:29,069 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 17:13:29,069 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 17:13:29,072 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 17:13:29,073 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 17:19:45,399 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 17:19:45,399 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 17:19:45,400 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 17:19:45,401 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 17:19:45,402 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-14 17:19:50,775 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 17:19:50,775 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 17:19:50,775 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 17:19:50,777 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-14 17:19:50,777 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:00:46,322 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:00:46,329 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:00:46,348 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 68 resources
+2020-09-15 09:00:46,369 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:00:46,369 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:08:21,513 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:08:21,515 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:08:21,516 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:08:21,518 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:08:21,518 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:08:47,802 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:08:47,803 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:08:47,804 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:08:47,819 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:08:47,819 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:12:37,306 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:12:37,307 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:12:37,307 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:12:37,324 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:12:37,324 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:12:56,386 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:12:56,386 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:12:56,386 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:12:56,389 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:12:56,390 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:13:07,084 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:13:07,084 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:13:07,084 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:13:07,086 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:13:07,086 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:13:45,576 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:13:45,576 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:13:45,576 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:13:45,577 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:13:45,577 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:14:09,082 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:14:09,083 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:14:09,083 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:14:09,102 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:14:09,103 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:32:07,389 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:32:07,390 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:32:07,391 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:32:07,397 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:32:07,397 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:32:10,845 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:32:10,845 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:32:10,846 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:32:10,860 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:32:10,860 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:32:35,849 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:32:35,849 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:32:35,849 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:32:35,850 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:32:35,851 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:33:13,408 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:33:13,409 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:33:13,409 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:33:13,434 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:33:13,434 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:33:52,063 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:33:52,063 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:33:52,063 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:33:52,075 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:33:52,075 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:35:07,411 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:35:07,411 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:35:07,411 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:35:07,414 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:35:07,414 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:37:31,220 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:37:31,220 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:37:31,220 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:37:31,224 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:37:31,224 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:37:41,589 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:37:41,590 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:37:41,590 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:37:41,596 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:37:41,596 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:40:18,810 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:40:18,811 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:40:18,811 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:40:18,813 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:40:18,813 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:41:43,468 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:41:43,468 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:41:43,468 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:41:43,470 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:41:43,470 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:42:07,477 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:42:07,477 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:42:07,477 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:42:07,478 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:42:07,478 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:42:53,309 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:42:53,309 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:42:53,310 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:42:53,336 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:42:53,336 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:43:12,733 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:43:12,733 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:43:12,733 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:43:12,735 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:43:12,735 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:44:00,388 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:44:00,388 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:44:00,389 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:44:00,390 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:44:00,390 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:44:17,948 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:44:17,948 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:44:17,948 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:44:17,950 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:44:17,950 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:44:38,680 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:44:38,680 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:44:38,680 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:44:38,681 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:44:38,681 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:45:11,658 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:45:11,658 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:45:11,659 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:45:11,660 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:45:11,661 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:45:55,258 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:45:55,259 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:45:55,259 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:45:55,260 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:45:55,260 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:46:04,536 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:46:04,536 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:46:04,536 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:46:04,537 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:46:04,537 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:46:30,028 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:46:30,029 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:46:30,029 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-15 09:46:30,043 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:46:30,043 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:51:01,552 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:51:01,552 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:51:01,552 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:51:01,554 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:51:01,554 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:51:07,782 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:51:07,782 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:51:07,782 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:51:07,784 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:51:07,784 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:52:47,821 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:52:47,821 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:52:47,821 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:52:47,823 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:52:47,823 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 09:53:03,258 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:53:03,258 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:53:03,259 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 09:53:03,262 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 09:53:03,262 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 10:55:30,545 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 10:55:30,546 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 10:55:30,547 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 10:55:30,549 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 10:55:30,549 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 10:56:26,746 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 10:56:26,747 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 10:56:26,747 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 10:56:26,748 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 10:56:26,748 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources
+2020-09-15 13:01:00,302 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 13:01:00,303 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 13:01:00,303 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-15 13:01:00,305 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-15 13:01:00,305 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Java web\Spring\pilot-project\src\test\resources

@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 import java.security.SecureRandom;
 import java.util.Date;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -94,5 +95,19 @@ public class FileHelper {
 		if (deletedFile.exists()) {
 			deletedFile.delete();
 		}
+	}
+	
+	/**
+	 * Encrypt String to MD5
+	 * 
+	 * @param inputStr
+	 * @return Encrypt Code String
+	 */
+	public static String ecryptMD5(String inputStr) {
+		return DigestUtils.md5Hex(DigestUtils.md5Hex(inputStr + Constants.SALT_CONST));
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(ecryptMD5("12345"));
 	}
 }

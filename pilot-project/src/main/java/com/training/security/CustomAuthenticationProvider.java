@@ -13,6 +13,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
+import com.training.common.util.FileHelper;
+import com.training.entity.UserInfoEntity;
 import com.training.service.UserInfoService;
 
 @Component
@@ -27,9 +29,10 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 		String username = authentication.getName();
 		String password = authentication.getCredentials().toString();
 		UsernamePasswordAuthenticationToken usernamePassAuthToken = null;
-
-		// UserInfoEntity loginUserInfo = userInfoService.login(username, password);
-		if (username.equals(password)) {
+		String passwordMd5 = FileHelper.ecryptMD5(password);
+		UserInfoEntity loginAdmin = userInfoService.login(username, passwordMd5);
+		
+		if (loginAdmin != null) {
 			List<GrantedAuthority> grantedAuths = new ArrayList<GrantedAuthority>();
 			grantedAuths.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
 			usernamePassAuthToken = new UsernamePasswordAuthenticationToken(username, StringUtils.EMPTY, grantedAuths);

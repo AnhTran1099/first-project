@@ -1,9 +1,22 @@
 package com.training.entity;
 
-public class UserInfoEntity {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name="users")
+public class UserInfoEntity {
+	
+	@Id
+	@Column(name = "username", nullable = false)
 	private String username;
+	
+	@Column(name = "password", nullable = true)
 	private String password;
+	
+	@Column(name = "role", nullable = true)
 	private String userRole;
 
 	/**
@@ -18,13 +31,6 @@ public class UserInfoEntity {
 	 */
 	public void setUsername(String username) {
 		this.username = username;
-	}
-
-	/**
-	 * @return the password
-	 */
-	public String getPassword() {
-		return password;
 	}
 
 	/**

@@ -6,8 +6,10 @@ $(document).ready(function() {
 	$('.pagination').on('click', '.page-link', function() {
 		var pageNumber = $(this).attr("data-index");
 		var keyword = $('#keyword').val();
-		
-		if ( keyword != "" || listBrand !="") {
+		var priceFrom = $('#priceFrom').val();
+    	var priceTo = $('#priceTo').val();
+    	
+		if ( keyword != "" || priceTo != "" || priceFrom != "" || listBrand !="" ) {
 			searchProduct(pageNumber,true,listBrand);
 		} else {
 			findAllProducts(pageNumber);
@@ -45,23 +47,25 @@ $(document).ready(function() {
 		findAllProducts(1);
 	})
 	
-	/* Set current day default for sale date*/
-	var date = new Date();
-
-	var day = date.getDate();
-	var month = date.getMonth() + 1;
-	var year = date.getFullYear();
-	
-	if (month < 10) month = "0" + month;
-	if (day < 10) day = "0" + day;
-	
-	var today = year + "-" + month + "-" + day;
+//	/* Set current day default for sale date*/
+//	var date = new Date();
+//
+//	var day = date.getDate();
+//	var month = date.getMonth() + 1;
+//	var year = date.getFullYear();
+//	
+//	if (month < 10) month = "0" + month;
+//	if (day < 10) day = "0" + day;
+//	
+//	var today = year  + "-" + month + "-" + day;
 	
 	// Show add product modal
 	$('#addProductInfoModal').on('click', function() {
 		resetFormModal($productInfoForm);
 		showModalWithCustomizedTitle($productInfoModal, "Add Product");
-		$('input[name=saleDate]').val(today);
+//		$('input[name=saleDate]').val(today);
+//		$('#FInvoice_editView_fieldName_saleDate').datepicker({ dateFormat: 'yyyy/mm/dd' });
+//		$('#FInvoice_editView_fieldName_saleDate').datepicker('setDate', 'today') ;
 		$('#productImg img').attr('src', '/images/download.png');
 		$('#productId').closest(".form-group").addClass("d-none");
 		$("#productImage .required-mask").removeClass("d-none");

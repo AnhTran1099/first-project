@@ -27,4 +27,7 @@ public class Constants {
 	public static final String PROP_KEY_KEYWORD = "keyword";
 	public static final String PROP_KEY_PRICE_FROM = "priceFrom";
 	public static final String PROP_KEY_PRICE_TO = "priceTo";
+	
+	/** SALT CONST */
+	public static final String SALT_CONST = "!#$%^&*!#$%^&*";
 }
