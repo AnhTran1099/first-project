@@ -23,29 +23,29 @@ public class ProductEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Basic(optional = false)
-	@Column(name = "PRODUCT_ID")
+	@Column(name = "productId")
 	private Long productId;
 
-	@Column(name = "PRODUCT_NAME")
+	@Column(name = "productName")
 	private String productName;
 
-	@Column(name = "QUANTITY")
+	@Column(name = "quantity")
 	private int quantity;
 
-	@Column(name = "PRICE")
+	@Column(name = "price")
 	private Double price;
 
-	@Column(name = "SALE_DATE")
+	@Column(name = "saleDate")
 	private Date saleDate;
 
-	@Column(name = "IMAGE")
+	@Column(name = "image")
 	private String image;
 
-	@Column(name = "DESCRIPTION")
+	@Column(name = "description")
 	private String description;
 
 	// Specifies a single-valued association to another entity class that has many-to-one multiplicity.
-	@JoinColumn(name = "BRAND_ID", referencedColumnName = "BRAND_ID")
+	@JoinColumn(name = "brandId", referencedColumnName = "brandId")
 	@ManyToOne(fetch = FetchType.EAGER)
 	private BrandEntity brandEntity;
 	

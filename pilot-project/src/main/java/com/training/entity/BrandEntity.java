@@ -21,17 +21,17 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class BrandEntity {
 
 	@Id
-	@Column(name = "BRAND_ID", nullable = false)
+	@Column(name = "brandId", nullable = false)
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long brandId;
 
 	@Column(name = "brandName", length = 100, nullable = true)
 	private String brandName;
 
-	@Column(name = "DESCRIPTION", nullable = true)
+	@Column(name = "description", nullable = true)
 	private String description;
 
-	@Column(name = "LOGO", nullable = true)
+	@Column(name = "logo", nullable = true)
 	private String logo;
 
 	@Transient
