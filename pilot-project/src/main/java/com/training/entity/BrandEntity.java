@@ -25,7 +25,7 @@ public class BrandEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long brandId;
 
-	@Column(name = "BRAND_NAME", length = 100, nullable = true)
+	@Column(name = "brandName", length = 100, nullable = true)
 	private String brandName;
 
 	@Column(name = "DESCRIPTION", nullable = true)
