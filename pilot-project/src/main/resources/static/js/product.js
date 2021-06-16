@@ -78,7 +78,7 @@ $(document).ready(function() {
 
 		// Get product info by product ID
 		$.ajax({
-			url : "/product/api/find?id=" + $(this).data("id"),
+			url : "product/api/find?id=" + $(this).data("id"),
 			type : 'GET',
 			dataType : 'json',
 			contentType : 'application/json',

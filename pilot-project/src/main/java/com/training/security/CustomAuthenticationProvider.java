@@ -30,7 +30,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 		String password = authentication.getCredentials().toString();
 		UsernamePasswordAuthenticationToken usernamePassAuthToken = null;
 		String passwordMd5 = FileHelper.ecryptMD5(password);
-		UserInfoEntity loginAdmin = userInfoService.login(username, passwordMd5);
+		UserInfoEntity loginAdmin = userInfoService.login(username, password);
 		
 		if (loginAdmin != null) {
 			List<GrantedAuthority> grantedAuths = new ArrayList<GrantedAuthority>();
